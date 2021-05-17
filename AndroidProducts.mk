@@ -14,4 +14,11 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_wt88047.mk
+    $(LOCAL_DIR)/nad_wt88047.mk
+
+COMMON_LUNCH_CHOICES := \
+     nad_wt88047-user \
+     nad_wt88047-userdebug \
+     nad_wt88047-eng
+
+
