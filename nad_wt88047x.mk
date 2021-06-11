@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/wt88047x/full_wt88047x.mk)
 
 # Inherit some common NusantaraProject stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+USE_PIXEL_CHARGING := true
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
