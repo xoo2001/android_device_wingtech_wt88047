@@ -20,6 +20,7 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
 USE_AOSP_CLOCK := true
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
