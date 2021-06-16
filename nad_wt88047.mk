@@ -17,6 +17,7 @@ $(call inherit-product, device/wingtech/wt88047/full_wt88047.mk)
 
 # Inherit some common Nusantara stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+USE_PIXEL_CHARGING := true
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
